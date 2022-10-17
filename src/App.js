@@ -7,10 +7,8 @@ import { Routes } from 'react-router-dom';
 const App = () => {
   return (
     <>
-    5
-        <Routes>
-          <Routes to="/" elements={Navbar} />
-        </Routes>
+       <Navbar />
+       <News />
     </>
   )
 }
